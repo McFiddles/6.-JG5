@@ -1,11 +1,49 @@
 body {
-	background-color: #A4A297;
+    background-color: #A4A297;
 }
-.main {
-width: 120px;
-height: 800px;
-background-color: white;
-margin-left: auto;
-margin-right: auto;
-border-radius: 15px;
+/* This div div a is for the nav bar */
+ div div a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+h1 {
+    font-family: Verdana;
+    font-size: 1.5em;
+    color: #3e4142;
+}
+p {
+    font-family: Arial;
+}
+#main {
+    width: 800px;
+    height: 800px;
+    background-color: #FFFFD1;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 0 15px 15px;
+    border: 2px solid white;
+}
+#banner {
+    height: 150px;
+}
+#navbar {
+    background-color: #979fa4;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 25px;
+    position: relative;
+    text-align: center;
+    font-family: Verdana;
+    padding-top: 7px;
+}
+#body {
+    position: relative;
+    left: 100px;
+}
+#active {
+    background-color: #cfd9de;
+    font-weight: bold;
+    border: 1px solid white;
 }
