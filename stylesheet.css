@@ -16,7 +16,9 @@ h1 {
 p {
     font-family: Arial;
 }
-#main {
+/* ---------------------------------------ID-------------------------------------- */
+/* ------------layout-------------- */
+ #main {
     width: 800px;
     height: 800px;
     background-color: #FFFFD1;
@@ -36,14 +38,23 @@ p {
     position: relative;
     text-align: center;
     font-family: Verdana;
-    padding-top: 7px;
+    padding-top: 6px;
 }
 #body {
     position: relative;
     left: 100px;
+    width: 600px;
 }
+/* ------------------------functions and misc-------------------- */
 #active {
     background-color: #cfd9de;
     font-weight: bold;
     border: 1px solid white;
+}
+#credits {
+    position: relative;
+    margin-top:64%; 
+    margin-left: 75%;
+    font-family: Verdana;
+    font-size: 50%;
 }
