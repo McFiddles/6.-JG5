@@ -1,5 +1,9 @@
 body {
     background-color: #A4A297;
+	background-image: url("images/bgplane.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100%;	
     font-family: Arial;
 }
 /* This div div a is for the nav bar */
